@@ -5,7 +5,8 @@
     font-family: "Helvetica Neue", Arial, sans-serif;
     font-size: 16px;
     line-height: 20px;
-    font-family: 'Inter', sans-serif;}
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Serif', serif;
 
 .header{
     background-image: url(../images/background_header.svg);
