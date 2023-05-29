@@ -1,97 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta name="description" content="Free Web tutorials"/> <meta name="keywords" content="HTML,CSS,JavaScript"/> <meta name="author" content="John Doe"/>
-    <link rel="stylesheet" href="./vendor/normalize.css"/>
-    <link rel="stylesheet" href="./pages/index.css"/>
-    <link rel="shortcut icon" href="favicon.ico"/>
-    <title>Practicum Library</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com"/>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif:ital@0;1&display=swap" rel="stylesheet"/>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Free Web tutorials" />
+  <meta name="keywords" content="HTML,CSS,JavaScript" />
+  <meta name="author" content="John Doe" />
+  <link rel="stylesheet" href="./vendor/normalize.css" />
+  <link rel="stylesheet" href="./pages/index.css" />
+  <link rel="shortcut icon" href="favicon.ico" />
+  <title>Practicum Library</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&ampfamily=Noto+Serif:ital@0;1&ampdisplay=swap"
+    rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 </head>
 <body>
-    <div class="page">
-<header class="header">
-    <nav class="nav">
-      <img
-        src="./images/logo_coffee_shop.svg"
-        alt="Practicum Coffeeshop Logo"
-        class="logo"
-      />
+  <div class="page">
+    <header class="header">
+      <nav class="nav">
+        <img src="./images/logo_coffee_shop.svg" alt="Practicum Coffeeshop Logo" class="logo" />
         <ul class="nav__links">
-        <li>
-          <a class="nav__link" href="#menu">Menu</a>
-        </li>
-        <li>
-          <a class="nav__link" href="#recipes">Recipes</a>
-        </li>
-        <li>
-          <a class="nav__link" href="#reservation">Book a Table</a>
-        </li>
-        <li>
-          <a class="nav__link" href="#about">Contacts</a>
-        </li>
-      </ul>
-    </nav>
-    <h1 class="header__title">
-      <span class="header__span-accent">Specialty coffee</span> 
-      <br>in the Practicum Library
-    </h1> 
-    <p class="header__description">Welcome to our study zone! We've got the coffee to energize you and the cozy vibes to help you get creative.</p>
-    <img
-        src="./images/inside_coffee_shop.png"
-        alt="Practicum Coffeeshop inside"
-        class="header__image"
-      />
+          <li>
+            <a class="nav__link" href="#menu">Menu</a>
+          </li>
+          <li>
+            <a class="nav__link" href="#recipes">Recipes</a>
+          </li>
+          <li>
+            <a class="nav__link" href="#reservation">Book a Table</a>
+          </li>
+          <li>
+            <a class="nav__link" href="#about">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <h1 class="header__title">
+        <span class="header__span-accent">Specialty coffee</span>
+        <br>in the Practicum Library
+      </h1>
+      <p class="header__description">Welcome to our study zone! We've got the coffee to energize you and the cozy vibes
+        to help you get creative.</p>
+      <img src="./images/inside_coffee_shop.png" alt="Practicum Coffeeshop inside" class="header__image" />
       <ul class="header__footer">
         <li class="header__paragraph">Hours:</li>
         <li class="header__paragraph">Monday-Friday (10:00-19:00)</li>
         <li class="header__paragraph">Saturday-Sunday (11:00-18:00)</li>
         <li class="header__paragraph header__paragraph-address">200 Success Avenue, The Town of Practicum</li>
       </ul>
-  </header>
-  <main class="content">
-    <section class="recipes" id="recipes">
-      <h2 class="recipes__title">Recipes</h2>
-      <p class="recipes__subtitle">Check out some recipes we've collected for your home-brewing convenience:</p>
-      <div class="recipes__videos">
-        <ul class="recipes__videos">
-          <li>
-            <iframe
-              class="recipes__iframe"
-              id="ytplayer"
-              src="https://www.youtube.com/embed/st571DYYTR8"
-              allowfullscreen
-            ></iframe>
-            <p class="recipes__caption">
-              <span>Aeropress recipe</span>
-              <span>~5 min</span>
-            </p>
-          </li>
-          <li>
-            <iframe
-              class="recipes__iframe"
-              src="https://www.youtube.com/embed/j6VlT_jUVPc"
-              allowfullscreen
-            ></iframe>
-            <p class="recipes__caption">
-              <span> French press recipe </span>
-              <span>~15 min</span>
-            </p>
-          </li>
-        </ul>
-      </div>
-    </section>
-    <section class="reservation" id="reservation"></section>
-    <section class="menu" id="menu"></section>
-    <section class="about" id="about"></section>
-  </main>
-  <footer class="footer">
-  </footer>
+    </header>
+    <main class="content">
+      <section class="recipes" id="recipes">
+        <h2 class="recipes__title">Recipes</h2>
+        <p class="recipes__subtitle">Check out some recipes we've collected for your home-brewing convenience:</p>
+        <div class="recipes__videos">
+          <ul class="recipes__videos">
+            <li>
+              <iframe class="recipes__iframe" id="ytplayer" src="https://www.youtube.com/embed/st571DYYTR8"
+                allowfullscreen></iframe>
+              <p class="recipes__caption">
+                <span>Aeropress recipe</span>
+                <span>~5 min</span>
+              </p>
+            </li>
+            <li>
+              <iframe class="recipes__iframe" src="https://www.youtube.com/embed/j6VlT_jUVPc" allowfullscreen></iframe>
+              <p class="recipes__caption">
+                <span> French press recipe </span>
+                <span>~15 min</span>
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="reservation" id="reservation">
+         <h2 class="reservation__title">Book a table</h2>
+          <form class="form reservation__form">
+            <fieldset class="form__fieldset">
+              <label for="Name" class="form__label"> Name *</label>
+              <input
+                type="text"
+                class="form__input"
+                id="Name"
+                name="Name"
+                placeholder="Name Surname"
+                required
+              />
+              <label for="guests" class="form__label">
+                Number of guests *</label
+              >
+              <input
+                type="number"
+                class="form__input"
+                id="guests"
+                name="guests"
+                min="1"
+                max="8"
+                placeholder="1 - 8"
+                required
+              />
+              <label for="date" class="form__label">Date & time *</label>
+              <input
+                type="datetime-local"
+                class="form__input"
+                id="date"
+                name="date"
+              />
+              <label for="email" class="form__label">Your email *</label>
+              <input
+                type="email"
+                class="form__input"
+                id="email"
+                placeholder="email@email.com"
+                required
+              />
+              <button type="button" class="form__button">Book a table</button>
+              <label for="checkbox" class="form__label">
+                <input
+                  type="checkbox"
+                  class="form__checkbox"
+                  name="checkbox"
+                  id="checkbox"
+                  checked
+                  required
+                />I agree with the terms of use</label
+              >
+            </fieldset>
+          </form>
+      </section>
+      <section class="menu" id="menu"></section>
+      <section class="about" id="about"></section>
+    </main>
+    <footer class="footer">
+    </footer>
   </div>
 </body>
 </html>
