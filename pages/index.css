@@ -7,6 +7,7 @@
     line-height: 20px;
     font-family: 'Inter', sans-serif;
     font-family: 'Noto Serif', serif;
+  }
 
 .header{
     background-image: url(../images/background_header.svg);
@@ -181,5 +182,4 @@ color: #838383;
     font-size: 20px;
     line-height: 30px;
     color: white;
-    margin: 24px 0 0 0;
   }
